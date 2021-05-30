@@ -7,7 +7,7 @@ const Header = props => {
         <Fragment>
             <header className={classes.header}>
                 <h1>Chocolate ROom</h1>
-                <HeaderCardButton />
+                <HeaderCardButton onClick={props.onShowCart} />
             </header>
             <div className={classes['main-image']}>
                 <img src="https://images.yourstory.com/cs/2/f02aced0d86311e98e0865c1f0fe59a2/chocolate-industry-1619632472826.png" alt="Chocolates" />
